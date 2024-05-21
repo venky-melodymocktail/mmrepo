@@ -4,7 +4,7 @@ services:
   frontend:
     image: mmfrontendimage
     ports:
-      - "8089:80"
+      - "8080:80"
     restart: always
     networks:
       - frontend-network
