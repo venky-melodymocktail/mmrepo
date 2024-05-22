@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   frontend:
-    image: venkynagidi/frontend1:${BUILD_TAG}
+    image: frontendimage:$BUILD_TAG
     ports:
       - "8080:80"
     restart: always
